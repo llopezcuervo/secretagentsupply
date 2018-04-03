@@ -1,0 +1,42 @@
+/* universal styling */
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* header */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.flex-container img {
+  padding-right: 15px;
+  height: 20px;
+  width: auto;
+}
+
+/* body */
+
+.main {
+  background-image: url("../moto.jpeg");
+  height: 400px;
+  width: 918px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-item {
+  text-align: left;
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  margin: 100px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
