@@ -4,7 +4,7 @@ html {
   background-color: black;
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-family: "Helvetica";
 }
 
 
@@ -58,4 +58,23 @@ html {
   background-color: #B00024;
   height: 40px;
   width: 918px;
+}
+
+/* body section 2 */
+
+.flex-boxes {
+  text-align: left;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  margin: 10px 40px 10px 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.flex-boxes img {
+  height: 80px;
+  width: auto;
+  padding-top: 20px;
+  padding-right: 60px;
 }
